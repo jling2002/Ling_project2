@@ -36,6 +36,7 @@ a{
     padding: 15px;
     font-size: 40px;
     font-weight: 100;
+    line-height: 57px;
 }
 
 .teardrop {
@@ -162,27 +163,42 @@ a{
 }
 
 .come {
-    animation-name: come;
+    /* animation-name: come;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode:forwards;
     animation-iteration-count: 1;
-    animation-timing-function: ease;
+    animation-timing-function: ease; */
     /* animation-delay: 150ms; */
     position: absolute;
-    left: 188px;
+    top: 123px;
+    left: 630px;
+    animation-name: come;
+    animation-duration: 3s;
+    /* animation-delay: 400ms; */
+    animation-fill-mode: forwards;
     /* left: 500px; */
     /* left: -65px; */
 }
 
-@keyframes come {
+/* @keyframes come {
     from {
         margin-left: -1000px;
         letter-spacing: 30px;
     }
     to {
         margin-left: 440px;
+    }
+} */
+
+@keyframes come {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 305px;
+        opacity: 1;
     }
 }
 
