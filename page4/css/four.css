@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    color: #3c5369;
+}
+
+html {
+    font-family: 'Shadows Into Light', serif;
+    background-color: #6c8094;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+

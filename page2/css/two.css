@@ -34,7 +34,8 @@ html {
 a{
     text-decoration: none;
     padding: 15px;
-    transform: scale(2.5, 2);  
+    font-size: 40px;
+    font-weight: 100;
 }
 
 .teardrop {
@@ -61,9 +62,10 @@ a{
     }
 } */
 
+
 .All {
     position: absolute;
-    top: -50px;
+    top: 55px;
     left: 675px;
     animation-name: All;
     animation-duration: 3s;
@@ -82,11 +84,11 @@ a{
 
 .of {
     position: absolute;
-    top: -50px;
+    top: 75px;
     left: 675px;
     animation-name: of;
     animation-duration: 3s;
-    animation-delay: 200ms;
+    /* animation-delay: 200ms; */
     animation-fill-mode: forwards;
 }
 
@@ -102,11 +104,11 @@ a{
 
 .them {
     position: absolute;
-    top: -50px;
-    left: 670px;
+    top: 89px;
+    left: 655px;
     animation-name: them;
     animation-duration: 3s;
-    animation-delay: 400ms;
+    /* animation-delay: 400ms; */
     animation-fill-mode: forwards;
 }
 
@@ -122,11 +124,11 @@ a{
 
 .tears {
     position: absolute;
-    top: -50px;
-    left: 655px;
+    top: 105px;
+    left: 620px;
     animation-name: tears;
     animation-duration: 3s;
-    animation-delay: 600ms;
+    /* animation-delay: 600ms; */
     animation-fill-mode: forwards;
 }
 
@@ -167,10 +169,9 @@ a{
     animation-fill-mode:forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease;
-    animation-delay: 150ms;
+    /* animation-delay: 150ms; */
     position: absolute;
-    top: 385px;
-    left: 200px;
+    left: 188px;
     /* left: 500px; */
     /* left: -65px; */
 }
@@ -187,11 +188,11 @@ a{
 
 .andPosition {
     position: absolute;
-    top: -50px;
-    left: 713px;
+    top: 123px;
+    left: 710px;
     animation-name: andPosition;
     animation-duration: 3s;
-    animation-delay: 800ms;
+    /* animation-delay: 800ms; */
     animation-fill-mode: forwards;
 }
 
@@ -206,25 +207,24 @@ a{
 }
 
 .go {
-    animation-name: go;
-    animation-delay: 0s;
+    animation: go, change-color 2s forwards;
     animation-direction: forwards;
     animation-duration: 3s;
-    animation-delay: 1s;
+    /* animation-delay: 1s; */
     animation-fill-mode:forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease;
     transition-duration: 1s;
     position: absolute;
-    top: -50px;
+    top: 139px;
     left: 675px;
     cursor: pointer;
     color: #3c5369;
 }
 
 .go:hover {
-    transform: scale(2.5, 2) translateX(20px);
-    color: aqua;
+    transform: translateX(50px);
+    color: #87CEEB;
 }
 
 @keyframes go {
@@ -234,6 +234,15 @@ a{
     100% {
         padding-top: 330px;
         opacity: 1;
+    }
+}
+
+@keyframes change-color {
+    32% {
+        color: #3c5369; 
+    }
+    95% {
+        color: #87CEEB; 
     }
 }
 
