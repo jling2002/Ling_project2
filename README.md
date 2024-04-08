@@ -9,8 +9,13 @@ I chose the song 'Be Alright' by Ariana Grande because it includes themes of sup
 The imagery I wanted to create from the lyrics represent going through the rain to get to the sunlight. Good days would not exist if bad days never happens. There is always light at the end of the tunnel so never give up hope. 
 
 # technical overview
+WORKING IN PROGRESS
+
 This project consists of ten HTML pages and their own CSS pages. 
 
-
+The second HTML page has a animation that creates a falling effect of the words to represent the motion of rain. 
 
 # acknowledgment 
+
+Song lyrics for 'Be Alright' by Ariana Grande
+
