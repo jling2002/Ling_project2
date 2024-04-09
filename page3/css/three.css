@@ -21,18 +21,17 @@ html {
 
 a{
     text-decoration: none;
-    padding: 15px;
     font-size: 40px;
     font-weight: 100;
 }
      
 
-.padLeft {
+/* /* .padLeft {
     height: 712px;
-    width: 1440px;
-    padding-top: 22%;
-    padding-left: 25%;
-}
+    width: 1440px; */
+    /* padding-top: 22%;
+    padding-left: 25%; */
+
 
 #fadeIn {
     animation-name: fadeIn;
@@ -56,26 +55,16 @@ a{
 
 .you {
     position: absolute;
-    top: 55px;
+    top: 20px;
     left: 500px;
     animation-name: falling;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-@keyframes falling {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        padding-top: 400px;
-        opacity: 1;
-    }
-}
-
 .just {
     position: absolute;
-    top: 55px;
+    top: 20px;
     left: 560px;
     animation-name: falling;
     animation-duration: 3s;
@@ -85,7 +74,7 @@ a{
 
 .gotta {
     position: absolute;
-    top: 55px;
+    top: 20px;
     left: 620px;
     animation-name: falling;
     animation-delay: 150ms;
@@ -95,7 +84,7 @@ a{
 
 .make {
     position: absolute;
-    top: 55px;
+    top: 20px;
     left: 700px;
     animation-name: falling;
     animation-delay: 210ms;
@@ -105,7 +94,7 @@ a{
 
 .your {
     position: absolute;
-    top: 55px;
+    top: 20px;
     left: 840px;
     animation-name: falling;
     animation-delay: 130ms;
@@ -115,7 +104,7 @@ a{
 
 .mindPosition {
     position: absolute;
-    top: 55px;
+    top: 20px;
     left: 910px;
     animation-name: falling;
     animation-delay: 10ms;
@@ -128,7 +117,7 @@ a{
         opacity: 0;
     }
     100% {
-        padding-top: 400px;
+        padding-top: 300px;
         opacity: 1;
     }
 }
@@ -136,7 +125,7 @@ a{
 #up {
     color: #3c5369;
     position: absolute;
-    top: 435px;
+    top: 320px;
     left: 790px;
     animation: up, change-color 2s forwards;
     animation-duration: 3s;
@@ -151,7 +140,7 @@ a{
         opacity: 0.4;
     }
     100% {
-        top: 350px;
+        top: 250px;
         opacity: 1;
     }
 }
@@ -174,8 +163,8 @@ a{
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-play-state: running;
-    animation-delay: 3s;
-    top: 440px;
+    animation-delay: 4.5s;
+    top: 300px;
     left: 910px;
     opacity: 0;
 }
@@ -185,15 +174,15 @@ a{
     0%{
         position: absolute;
         color: #3c5369;
-        top: 440px;
+        top: 320px;
         left: 910px;
         font-size: 40px;
-        opacity: 0.1;
+        opacity: 0.2;
     }
     100% {
         position: absolute;
-        top: 310px;
-        right: 210px;
+        top: 350px;
+        right: 230px;
         font-size: 280px;
         opacity: 0;
     }

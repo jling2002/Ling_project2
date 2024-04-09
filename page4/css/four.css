@@ -8,8 +8,6 @@ body {
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    display: grid;
-    place-items: center;
     color: #3c5369;
 }
 
@@ -23,6 +21,160 @@ a{
     padding: 15px;
     font-size: 40px;
     font-weight: 100;
+    line-height: 57px;
+}
+
+.teardrop {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+#fadeIn {
+    animation-name: fadeIn;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.That {
+    position: absolute;
+    top: 55px;
+    left: 663px;
+    animation-name: That;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes That {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 200px;
+        opacity: 1;
+    }
+}
+
+.every {
+    position: absolute;
+    top: 75px;
+    left: 659px;
+    animation-name: every;
+    animation-duration: 3s;
+    /* animation-delay: 200ms; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes every {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 220px;
+        opacity: 1;
+    }
+}
+
+.little {
+    position: absolute;
+    top: 89px;
+    left: 655px;
+    animation-name: little;
+    animation-duration: 3s;
+    /* animation-delay: 400ms; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes little {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 255px;
+        opacity: 1;
+    }
+}
+
+.gonna {
+    position: absolute;
+    top: 103px;
+    left: 632px;
+    animation-name: gonna;
+    animation-duration: 3s;
+    /* animation-delay: 600ms; */
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes gonna {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 283px;
+        opacity: 1;
+    }
+}
+
+.alright {
+    /*animation-fill-mode:forwards;
+    animation-direction: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    transition-duration: 1s;
+    animation: alright, change-color 2s forwards;
+    animation-duration: 3s;
+    position: absolute;
+    top: 123px;
+    left: 658px;
+    cursor: pointer;
+    color: #3c5369;
+    */position: absolute;
+    top: 123px;
+    left: 658px;
+    animation: alright, change-color 2s forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    color: #3c5369;
+}
+
+.alright:hover {
+    color: #87CEEB;
+}
+
+@keyframes alright {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 311px;
+        opacity: 1;
+    }
+}
+
+@keyframes change-color {
+    32% {
+        color: #3c5369; 
+    }
+    95% {
+        color: #87CEEB; 
+    }
 }
 
 

@@ -21,8 +21,6 @@ body {
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    display: grid;
-    place-items: center;
     color: #3c5369;
 }
 
@@ -226,7 +224,6 @@ a{
     animation: go, change-color 2s forwards;
     animation-direction: forwards;
     animation-duration: 3s;
-    /* animation-delay: 1s; */
     animation-fill-mode:forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease;
