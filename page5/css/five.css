@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: #3c5369;
+}
+
+html {
+    font-family: 'Shadows Into Light', serif;
+    background-color: #6c8094;
+    animation: change-background 1s 3s forwards;
+    animation-duration: 3s;
+}
+
+@keyframes change-background {
+    0% {
+        background-color: #6c8094; 
+    }
+    50% {
+        background-color: #87CEEB; 
+    }
+    95% {
+        background-color: #697a8c;
+    }
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#fadeIn {
+    animation-name: fadeIn;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.we-are {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    animation-name: falling;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* .gonna {
+position: absolute;
+    top: 20px;
+    left: 593px;
+    animation-name: falling;
+    animation-duration: 3s;
+    /* animation-delay: 200ms; */
+    /* animation-fill-mode: forwards;
+} */
+/* 
+.be {
+    position: absolute;
+    top: 20px;
+    left: 688px;
+    animation-name: falling;
+    animation-delay: 150ms;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+} */ 
+
+.gonna {
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    animation-name: falling2;
+    animation-delay: 250ms;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.alright {
+    position: absolute;
+    top: 80px;
+    left: 763px;
+    animation: alright, change-color 2s forwards, neon-animation 1.5s infinite;
+    animation-delay: 300ms;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    color: #3c5369;
+    text-shadow: 0 0 2px #87CEEB, 0 0 4px #87CEEB, 0 0 6px #87CEEB;
+    opacity: 0;
+}
+
+@keyframes falling {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 300px;
+        opacity: 1;
+    }
+}
+
+@keyframes falling2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 290px;
+        opacity: 1;
+    }
+}
+
+/* .alright:hover {
+    color: #87CEEB;
+} */
+
+@keyframes alright {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 290px;
+        opacity: 1;
+    }
+}
+
+@keyframes change-color {
+    32% {
+        color: #3c5369; 
+    }
+    95% {
+        color: #87CEEB; 
+    }
+}
+
+
+.button:hover {
+    background-color: #ffcc00; 
+    color: #fff; 
+}
+
+@keyframes neon-animation {
+    0%, 100% {
+        color: #87CEEB; 
+        text-shadow: 0 0 2px #87CEEB, 0 0 4px #87CEEB, 0 0 6px #87CEEB;
+    }
+    50% {
+        color: #3c5369; 
+        text-shadow: none;
+    }
+}
+
