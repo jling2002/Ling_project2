@@ -31,7 +31,6 @@ a {
     text-align: center;
 }
 
-
 #fadeIn {
     animation-name: fadeIn;
     animation-delay: 0s;
@@ -50,7 +49,6 @@ a {
         opacity: 1;
     }
 }
-
 
 .That {
     position: absolute;
