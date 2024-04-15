@@ -53,7 +53,7 @@ a   {
 .slow {
     position: absolute;
     top: 75px;
-    left: 675px;
+    left: 661px;
     animation-name: slow;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -72,7 +72,7 @@ a   {
 .motion {
     position: absolute;
     top: 89px;
-    left: 655px;
+    left: 650px;
     animation-name: motion;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -91,7 +91,7 @@ a   {
 .cant {
     position: absolute;
     top: 105px;
-    left: 620px;
+    left: 609px;
     animation-name: cant;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -109,8 +109,8 @@ a   {
 
 .to {
     position: absolute;
-    top: 123px;
-    left: 630px;
+    top: 120px;
+    left: 645px;
     animation-name: to;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -129,7 +129,7 @@ a   {
 .where {
     position: absolute;
     top: 150px;
-    left: 630px;
+    left: 640px;
     animation-name: where;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -145,11 +145,190 @@ a   {
     }
 }
 
-#goingG {
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
+
+
+.we-are {
+    position: absolute;
+    top: 160px;
+    left: 648px;
+    animation-name: we-are;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
-.title:hover #sS {
-    transform: translate(-30vw, -20vh) rotate(-40deg);
+@keyframes we-are {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 335px;
+        opacity: 1;
+    }
+}
+
+
+/* #going {
+     position: absolute; 
+    display: flex;
+    font-weight: 400;
+    top: 500px;
+    left: 640px;
+}  */
+
+ 
+#goingG {
+    position: absolute; 
+    top: 530px;
+    left: 690px; 
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    animation: G, neon-animation infinite;
+    animation-duration: 5s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    opacity: 0;
+    color: #3c5369
+}
+
+@keyframes G {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* #goingG:hover {
+    transform: translate(-10vw, 20vh) rotate(-40deg);
+} */
+
+#goingO {
+    position: absolute; 
+    top: 573px;
+    left: 693px; 
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    animation: O, neon-animation infinite;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    opacity: 0;
+    color: #3c5369
+}
+
+@keyframes O {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* #goingO:hover {
+    transform: translate(-0.5vw, 10vh) rotate(7deg);
+} */
+
+#goingI {
+    position: absolute; 
+    top: 613px;
+    left: 695px; 
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    animation: I, neon-animation infinite;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    opacity: 0;
+    color: #3c5369
+}
+
+@keyframes I {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+} 
+
+/* #goingI:hover {
+transform: translate(0.5vw, 7vh) rotate(-7deg);
+} */
+
+#goingN {
+    position: absolute; 
+    top: 645px;
+    left: 689px; 
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    animation: N, neon-animation infinite;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    opacity: 0;
+    color: #3c5369
+}
+
+@keyframes N {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* #goingN:hover {
+transform: translate(1vw, 7vh) rotate(7deg);
+} */
+    
+#goingGG {
+    position: absolute; 
+    top: 675px;
+    left: 689px; 
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    animation: GG, neon-animation infinite;
+    animation-duration: 5s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    opacity: 0;
+    color: #3c5369
+}
+
+@keyframes GG {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* 
+#goingGG:hover {
+transform: translate(4vw, 7vh) rotate(-8deg);
+} */
+
+@keyframes neon-animation {
+    15% {
+        color: #87CEEB; 
+        text-shadow: 0 0 2px #87CEEB, 0 0 4px #87CEEB, 0 0 6px #87CEEB;
+    }
+    100% {
+        color: #3c5369; 
+        text-shadow: none;
+    }
 }

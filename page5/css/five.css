@@ -153,10 +153,10 @@ position: absolute;
 }
 
 
-.button:hover {
+/* .button:hover {
     background-color: #ffcc00; 
     color: #fff; 
-}
+} */
 
 @keyframes neon-animation {
     0%, 100% {
