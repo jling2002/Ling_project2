@@ -2,7 +2,7 @@
 by Jing Ling
 
 # project overview
-I made a webpage consisting of two interactive elements: text and color. Using these two components, I aimed to illustrate what community means to me. When I think of community, I think about the people I have relied on and helped. Life is filled with ups and downs so it is important to have good quality relationships.
+When I think of community, I think about I think about the people I have relied on and helped. Life is filled with ups and downs so it is important to have good quality relationships. In this work I used two components to illustrate what community means to me. This webpage consists of two interactive elements: text and color. Using these two components, I aimed to illustrate what community means to me. 
 
 I chose the song 'Be Alright' by Ariana Grande because it includes themes of support and resilience which are crucial aspects of a community. The lyrics offers comfort and hope during difficult times, assuring that you are not alone and things will eventually get better. Grande encourages you to rely on one another by creating a sense of unity and belonging which is what I think community is about. 
 
