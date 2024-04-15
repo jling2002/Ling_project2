@@ -15,6 +15,7 @@ This project consists of ten HTML pages and their own CSS pages.
 
 The second HTML page has a animation that creates a falling effect of the words to represent the motion of rain. 
 
+
 # acknowledgment 
 
 Song lyrics for 'Be Alright' by Ariana Grande
