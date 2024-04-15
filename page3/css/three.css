@@ -127,7 +127,7 @@ a{
     position: absolute;
     top: 320px;
     left: 790px;
-    animation: up, change-color 2s forwards;
+    animation: up, change-color infinite;
     animation-duration: 3s;
     animation-delay: 3s;
     animation-fill-mode: forwards;
@@ -146,11 +146,12 @@ a{
 }
 
 @keyframes change-color {
-    32% {
+    15% {
         color: #3c5369; 
     }
-    100% {
-        color: #87CEEB; 
+    60% {
+        color: #3c5369; 
+        text-shadow: 0 0 10px #87CEEB, 0 0 20px #87CEEB, 0 0 30px #87CEEB;
     }
 }
 

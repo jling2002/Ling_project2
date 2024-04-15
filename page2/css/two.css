@@ -237,7 +237,8 @@ a{
 
 .go:hover {
     transform: translateX(50px);
-    color: #87CEEB;
+    color: #3c5369;
+    text-shadow: 0 0 10px #87CEEB, 0 0 20px #87CEEB, 0 0 30px #87CEEB;
 }
 
 @keyframes go {
@@ -259,6 +260,16 @@ a{
     }
 }
 
+/* @keyframes neon-animation {
+    50% {
+        color: #3c5369; 
+        text-shadow: 0 0 10px #87CEEB, 0 0 20px #87CEEB, 0 0 30px #87CEEB;
+    }
+    80% {
+        color: #3c5369; 
+        text-shadow: none;
+    }
+} */
 /* @keyframes hover {
     from {
 
