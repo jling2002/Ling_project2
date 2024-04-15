@@ -4,15 +4,12 @@
     box-sizing: border-box;
 }
 
-
-
 html {
     font-family: 'Shadows Into Light', serif;
     background-color: #87CEEB;
     animation: change-background 1s 3s forwards;
     animation-delay: 1s;
 }
-
 
 @keyframes change-background {
     0% {
@@ -54,8 +51,6 @@ a{
     min-height: 100vh;
     text-align: center;
 }
-
-
 
 .All {
     position: absolute;
