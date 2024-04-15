@@ -77,7 +77,6 @@ a{
     left: 659px;
     animation-name: every;
     animation-duration: 3s;
-    /* animation-delay: 200ms; */
     animation-fill-mode: forwards;
 }
 
@@ -97,7 +96,6 @@ a{
     left: 655px;
     animation-name: little;
     animation-duration: 3s;
-    /* animation-delay: 400ms; */
     animation-fill-mode: forwards;
 }
 
@@ -117,7 +115,6 @@ a{
     left: 632px;
     animation-name: gonna;
     animation-duration: 3s;
-    /* animation-delay: 600ms; */
     animation-fill-mode: forwards;
 }
 

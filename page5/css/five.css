@@ -65,26 +65,6 @@ a{
     animation-fill-mode: forwards;
 }
 
-/* .gonna {
-position: absolute;
-    top: 20px;
-    left: 593px;
-    animation-name: falling;
-    animation-duration: 3s;
-    /* animation-delay: 200ms; */
-    /* animation-fill-mode: forwards;
-} */
-/* 
-.be {
-    position: absolute;
-    top: 20px;
-    left: 688px;
-    animation-name: falling;
-    animation-delay: 150ms;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-} */ 
-
 .gonna {
     position: absolute;
     top: 80px;
@@ -129,10 +109,6 @@ position: absolute;
     }
 }
 
-/* .alright:hover {
-    color: #87CEEB;
-} */
-
 @keyframes alright {
     0% {
         opacity: 0;
@@ -151,12 +127,6 @@ position: absolute;
         color: #87CEEB; 
     }
 }
-
-
-/* .button:hover {
-    background-color: #ffcc00; 
-    color: #fff; 
-} */
 
 @keyframes neon-animation {
     0%, 100% {

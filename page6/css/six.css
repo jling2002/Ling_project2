@@ -167,15 +167,6 @@ a {
 }
 
 
-/* #going {
-     position: absolute; 
-    display: flex;
-    font-weight: 400;
-    top: 500px;
-    left: 640px;
-}  */
-
- 
 #goingG {
     position: absolute; 
     top: 530px;
@@ -200,11 +191,6 @@ a {
         opacity: 1;
     }
 }
-
-
-/* #goingG:hover {
-    transform: translate(-10vw, 20vh) rotate(-40deg);
-} */
 
 #goingO {
     position: absolute; 
@@ -231,10 +217,6 @@ a {
     }
 }
 
-/* #goingO:hover {
-    transform: translate(-0.5vw, 10vh) rotate(7deg);
-} */
-
 #goingI {
     position: absolute; 
     top: 613px;
@@ -259,10 +241,6 @@ a {
         opacity: 1;
     }
 } 
-
-/* #goingI:hover {
-transform: translate(0.5vw, 7vh) rotate(-7deg);
-} */
 
 #goingN {
     position: absolute; 
@@ -289,10 +267,6 @@ transform: translate(0.5vw, 7vh) rotate(-7deg);
     }
 }
 
-/* #goingN:hover {
-transform: translate(1vw, 7vh) rotate(7deg);
-} */
-    
 #goingGG {
     position: absolute; 
     top: 675px;
@@ -317,10 +291,6 @@ transform: translate(1vw, 7vh) rotate(7deg);
         opacity: 1;
     }
 }
-/* 
-#goingGG:hover {
-transform: translate(4vw, 7vh) rotate(-8deg);
-} */
 
 @keyframes neon-animation {
     15% {
