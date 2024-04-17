@@ -4,19 +4,6 @@
     box-sizing: border-box;
 }
 
-/* section {
-    height: 712px;
-    width: 1440px;
-    padding-top: 20%;
-}
-
-.padLeft {
-    height: 712px;
-    width: 1440px;
-    padding-top: 22%;
-    padding-left: 25%;
-} */
-
 body {
     height: 100vh;
     width: 100%;
@@ -42,24 +29,8 @@ a{
     place-items: center;
     min-height: 100vh;
     text-align: center;
-    /* animation-name: underwater;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out; */
 }
 
-/* @keyframes underwater {
-    0% {
-        background-color: rgb(92, 134, 138);
-        opacity: 0;
-    }
-    100% {
-        background-color: rgb(92, 134, 138);
-        opacity: 1;
-    }
-} */
 
 
 .All {
@@ -87,7 +58,6 @@ a{
     left: 675px;
     animation-name: of;
     animation-duration: 3s;
-    /* animation-delay: 200ms; */
     animation-fill-mode: forwards;
 }
 
@@ -107,7 +77,6 @@ a{
     left: 655px;
     animation-name: them;
     animation-duration: 3s;
-    /* animation-delay: 400ms; */
     animation-fill-mode: forwards;
 }
 
@@ -127,7 +96,6 @@ a{
     left: 620px;
     animation-name: tears;
     animation-duration: 3s;
-    /* animation-delay: 600ms; */
     animation-fill-mode: forwards;
 }
 
@@ -161,34 +129,13 @@ a{
 }
 
 .come {
-    /* animation-name: come;
-    animation-delay: 0s;
-    animation-direction: forwards;
-    animation-duration: 3s;
-    animation-fill-mode:forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease; */
-    /* animation-delay: 150ms; */
     position: absolute;
     top: 123px;
     left: 630px;
     animation-name: come;
     animation-duration: 3s;
-    /* animation-delay: 400ms; */
     animation-fill-mode: forwards;
-    /* left: 500px; */
-    /* left: -65px; */
 }
-
-/* @keyframes come {
-    from {
-        margin-left: -1000px;
-        letter-spacing: 30px;
-    }
-    to {
-        margin-left: 440px;
-    }
-} */
 
 @keyframes come {
     0% {
@@ -206,7 +153,6 @@ a{
     left: 710px;
     animation-name: andPosition;
     animation-duration: 3s;
-    /* animation-delay: 800ms; */
     animation-fill-mode: forwards;
 }
 
@@ -237,7 +183,8 @@ a{
 
 .go:hover {
     transform: translateX(50px);
-    color: #87CEEB;
+    color: #3c5369;
+    text-shadow: 0 0 10px #87CEEB, 0 0 20px #87CEEB, 0 0 30px #87CEEB;
 }
 
 @keyframes go {
@@ -258,82 +205,3 @@ a{
         color: #87CEEB; 
     }
 }
-
-/* @keyframes hover {
-    from {
-
-    }
-
-    to {
-  
-    }
-} */
-
-/* @keyframes go {
-    from {
-        align-items: center;
-    }
-    to {
-        margin-left: px;
-    }
-} */
-
-/* #ever {
-    position: absolute;
-    top: -50px;
-    left: 675px;
-    animation-name: ever;
-    animation-duration: 3s;
-    animation-delay: 500ms;
-    animation-fill-mode: forwards;
-}
-
-#goMotion {
-    animation-name: goMotion;
-    animation-delay: 0s;
-    animation-direction: forwards;
-    animation-duration: 3s;
-    animation-fill-mode:forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
-}
-
-@keyframes goMotion {
-    from {
-        align-items: center;
-    }
-    to {
-        margin-left: 200px;
-    }
-}
-
-.text:active, .text:focus, .text:hover {
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-}
-
-#a-thirteen, #a-fourteen, #a-fifteen, #a-sixteen, #a-seventeen, #a-eighteen, #a-nineteen, #a-twenty, #a-twentyone, #a-twentytwo, #a-twentythree {
-    color: #fff;
-    opacity: .25;
-} */
-
-/* @keyframes hover {
-    from {
-    opacity: .05;
-    }
-    to {
-    opacity: 1;
-    }
-} */
-
-/* @keyframes transitionIn {
-    from {
-        opacity: 0;
-        transform: translateY(14px);
-    }
-
-    to {
-        opacity: 1;
-        transform: rotateX(0);
-    }
-} */

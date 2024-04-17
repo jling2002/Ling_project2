@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: #3c5369;
+}
+
+html {
+    font-family: 'Shadows Into Light', serif;
+    background-color: #6c8094;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 57px;
+}
+
+.teardrop {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.In {
+    position: absolute;
+    top: 55px;
+    left: 675px;
+    animation-name: In;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes In {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 210px;
+        opacity: 1;
+    }
+}
+
+.slow {
+    position: absolute;
+    top: 75px;
+    left: 661px;
+    animation-name: slow;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 230px;
+        opacity: 1;
+    }
+}
+
+.motion {
+    position: absolute;
+    top: 89px;
+    left: 650px;
+    animation-name: motion;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes motion {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 255px;
+        opacity: 1;
+    }
+}
+
+.cant {
+    position: absolute;
+    top: 105px;
+    left: 609px;
+    animation-name: cant;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cant {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 279px;
+        opacity: 1;
+    }
+}
+
+.to {
+    position: absolute;
+    top: 120px;
+    left: 645px;
+    animation-name: to;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes to {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 300px;
+        opacity: 1;
+    }
+}
+
+.where {
+    position: absolute;
+    top: 150px;
+    left: 640px;
+    animation-name: where;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes where {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 310px;
+        opacity: 1;
+    }
+}
+
+
+
+.we-are {
+    position: absolute;
+    top: 160px;
+    left: 648px;
+    animation-name: we-are;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes we-are {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 335px;
+        opacity: 1;
+    }
+}
+
+
+#goingG {
+    position: absolute; 
+    top: 530px;
+    left: 690px; 
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    animation: G, neon-animation infinite;
+    animation-duration: 5s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    opacity: 0;
+    color: #3c5369
+}
+
+@keyframes G {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#goingO {
+    position: absolute; 
+    top: 573px;
+    left: 693px; 
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    animation: O, neon-animation infinite;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    opacity: 0;
+    color: #3c5369
+}
+
+@keyframes O {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#goingI {
+    position: absolute; 
+    top: 613px;
+    left: 695px; 
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    animation: I, neon-animation infinite;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    opacity: 0;
+    color: #3c5369
+}
+
+@keyframes I {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+} 
+
+#goingN {
+    position: absolute; 
+    top: 645px;
+    left: 689px; 
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    animation: N, neon-animation infinite;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    opacity: 0;
+    color: #3c5369
+}
+
+@keyframes N {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#goingGG {
+    position: absolute; 
+    top: 675px;
+    left: 689px; 
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    animation: GG, neon-animation infinite;
+    animation-duration: 5s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    opacity: 0;
+    color: #3c5369
+}
+
+@keyframes GG {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes neon-animation {
+    15% {
+        color: #87CEEB; 
+        text-shadow: 0 0 2px #87CEEB, 0 0 4px #87CEEB, 0 0 6px #87CEEB;
+    }
+    100% {
+        color: #3c5369; 
+        text-shadow: none;
+    }
+}

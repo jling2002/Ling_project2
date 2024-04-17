@@ -8,22 +8,33 @@ body {
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    display: grid;
-    place-items: center;
     color: #3c5369;
 }
 
 html {
     font-family: 'Shadows Into Light', serif;
     background-color: #6c8094;
+    animation: change-background 1s 3s forwards;
+    animation-delay: 3s;
+
 }
+
+@keyframes change-background {
+    0% {
+        background-color: #6c8094; 
+    }
+    100% {
+        background-color: #87CEEB; 
+    }
+}
+
 
 a{
     text-decoration: none;
     font-size: 40px;
     font-weight: 100;
 }
-     
+
 #fadeIn {
     animation-name: fadeIn;
     animation-delay: 0s;
@@ -43,7 +54,7 @@ a{
     }
 }
 
-.you {
+.But {
     position: absolute;
     top: 20px;
     left: 500px;
@@ -52,7 +63,7 @@ a{
     animation-fill-mode: forwards;
 }
 
-.just {
+.the {
     position: absolute;
     top: 20px;
     left: 560px;
@@ -62,7 +73,7 @@ a{
     animation-fill-mode: forwards;
 }
 
-.gotta {
+.hard {
     position: absolute;
     top: 20px;
     left: 620px;
@@ -72,7 +83,7 @@ a{
     animation-fill-mode: forwards;
 }
 
-.make {
+.times {
     position: absolute;
     top: 20px;
     left: 700px;
@@ -82,24 +93,91 @@ a{
     animation-fill-mode: forwards;
 }
 
-.your {
+.are {
     position: absolute;
     top: 20px;
-    left: 840px;
+    left: 785px;
     animation-name: falling;
     animation-delay: 130ms;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-.mindPosition {
+.golden {
     position: absolute;
-    top: 20px;
-    left: 910px;
-    animation-name: falling;
-    animation-delay: 10ms;
+    top: 320px;
+    left: 846px;
+    animation: neon-animation infinite, hiding;
+    animation-delay: 2.9s;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    color: #3c5369;
+    opacity: 0;
+}
+
+.Cause {
+    position: absolute;
+    top: 377px;
+    left: 500px;
+    animation: hiding;
+    animation-delay: 4.2s;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.lead {
+    position: absolute;
+    top: 377px;
+    left: 723px;
+    animation: hiding;
+    animation-delay: 5.2s;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.to {
+    position: absolute;
+    top: 377px;
+    left: 794px;
+    animation: hiding;
+    animation-delay: 6.2s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.better {
+    position: absolute;
+    top: 377px;
+    left: 832px;
+    animation: hiding;
+    animation-delay: 7.2s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.days {
+    position: absolute;
+    top: 377px;
+    left: 942px;
+    animation: hiding;
+    animation-delay: 8.2s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+@keyframes hiding {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes falling {
@@ -112,69 +190,14 @@ a{
     }
 }
 
-#up {
-    color: #3c5369;
-    position: absolute;
-    top: 320px;
-    left: 790px;
-    animation: up, change-color infinite;
-    animation-duration: 3s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
-    opacity: 0;
-}
-
-@keyframes up {
-    0% {
-        opacity: 0.4;
-    }
-    100% {
-        top: 250px;
-        opacity: 1;
-    }
-}
-
-@keyframes change-color {
-    15% {
-        color: #3c5369; 
-    }
+@keyframes neon-animation {
     60% {
         color: #3c5369; 
-        text-shadow: 0 0 10px #87CEEB, 0 0 20px #87CEEB, 0 0 30px #87CEEB;
+        text-shadow: 0 0 10px #FFFAA0, 0 0 20px #FFFAA0, 0 0 30px #FFFAA0;
     }
-}
-
-#mind {
-    position: absolute;
-    animation-name: mind;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-direction: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
-    animation-play-state: running;
-    animation-delay: 4.5s;
-    top: 300px;
-    left: 910px;
-    opacity: 0;
-}
-
-@keyframes mind {
-    0%{
-        position: absolute;
-        color: #3c5369;
-        top: 320px;
-        left: 910px;
-        font-size: 40px;
-        opacity: 0.2;
-    }
-    100% {
-        position: absolute;
-        top: 350px;
-        right: 230px;
-        font-size: 280px;
-        opacity: 0;
+    80% {
+        color: #3c5369; 
+        text-shadow: none;
     }
 }
 

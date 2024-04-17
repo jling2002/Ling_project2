@@ -7,14 +7,42 @@
 html {
     font-family: 'Shadows Into Light', serif;
     background-color: #87CEEB;
+    animation: change-background 1s 3s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes change-background {
+    0% {
+        background-color: #87CEEB; 
+    }
+    100% {
+        background-color: #6c8094; 
+    }
 }
 
 a{
     text-decoration: none;
     padding: 15px;
-    font-size: 48px;
-    font-weight: 100;
+    font-size: 40px;
+}
 
+#fadeIn {
+    animation-name: fadeIn;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .teardrop {
@@ -22,93 +50,35 @@ a{
     place-items: center;
     min-height: 100vh;
     text-align: center;
-    /* animation-name: underwater;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out; */
 }
-
-
 
 .All {
     position: absolute;
     top: 230px;
     left: 675px;
-    animation-name: All;
-    animation-duration: 3s;
+    animation: All, neon-animation infinite;
+    animation-delay: 1.5s;
+    animation-duration: 2.7s;
     animation-fill-mode: forwards;
-    color: white;
-}
-
-.All:hover {
     color: #3c5369;
-}
-/* body {
-    font-family: 'Shadows Into Light', serif;
-    font-weight: 600;
-    font-size: 24px;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    display: grid;
-    place-items: center;
-    animation: transitionIn 3s;
-
+    opacity: 0;
 }
 
-a{
-    text-decoration: none;
-    padding: 15px;
-    transform: scale(2.5, 2);  
-}
-
-.teardrop{
-    display: grid;
-    place-items: center;
-}
-
-.text {
-    color: #fff;
-    cursor: pointer;
-    animation-name: hover, hovertwo;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
-    animation-play-state: paused;      
-}
-
-.textPlain {
-    color: #fff;
-}
-
-.text:active, .text:focus, .text:hover {
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-}
-
-#a-thirteen, #a-fourteen, #a-fifteen, #a-sixteen, #a-seventeen, #a-eighteen, #a-nineteen, #a-twenty, #a-twentyone, #a-twentytwo, #a-twentythree {
-    color: #fff;
-    opacity: .25;
-}
-
-@keyframes hover {
-    from {
-    opacity: .05;
-    }
-    to {
-    opacity: 1;
-    }
-}
-
-@keyframes transitionIn {
-    from {
+@keyframes All {
+    0% {
         opacity: 0;
-        transform: translateY(14px);
     }
-
-    to {
+    100% {
         opacity: 1;
-        transform: rotateX(0);
     }
-} */
+}
+
+@keyframes neon-animation {
+    15% {
+        color: #3c5369; 
+    }
+    60% {
+        color: #3c5369; 
+        text-shadow: 0 0 10px #87CEEB, 0 0 20px #87CEEB, 0 0 30px #87CEEB;
+    }
+}

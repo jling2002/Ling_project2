@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: #3c5369;
+    place-items: center;
+    text-align: center;
+}
+
+html {
+    font-family: 'Shadows Into Light', serif;
+    background-color: #87CEEB;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+#fadeIn {
+    animation-name: fadeIn;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35vh;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 40px;
+    font-size: 30px;
+    animation: hiding;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+.Be {
+    animation: neon-animation infinite, hiding;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    color: #3c5369;
+    opacity: 0;
+}
+
+.Alright {
+    top: 32px;
+    animation: neon-animation infinite, hiding;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    color: #3c5369;
+    opacity: 0;
+}
+
+@keyframes hiding {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes neon-animation {
+    60% {
+        color: #3c5369; 
+        text-shadow: 0 0 10px #FFFAA0, 0 0 20px #FFFAA0, 0 0 30px #FFFAA0;
+    }
+    80% {
+        color: #3c5369; 
+        text-shadow: none;
+    }
+}
+
